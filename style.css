@@ -1,0 +1,43 @@
+.container{
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-top:60px ;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(223, 196, 248);
+    
+}
+.container h2{
+    color: rgb(80, 17, 138);
+}
+.container h4{
+    color: blueviolet;
+}
+ #inputField{
+
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 40px;
+    
+}
+ #guessField{
+    border:1px solid blueviolet;
+    background-color: rgb(223, 196, 248);
+    text-align: center;
+
+
+}
+
+#submitButton, #startButton{
+    width: 120px;
+    height: 30px;
+    background-color: rgb(169, 131, 204);
+    border-radius: 35px;
+    cursor: pointer;
+    margin-top: 20px;
+    border: 1px solid rgb(171, 120, 219);
+
+}
